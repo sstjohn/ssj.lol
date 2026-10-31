@@ -1,0 +1,12 @@
+{
+  "name": "goatcounter",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-31",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "ssj.lol/*", "zone_name": "ssj.lol" },
+    { "pattern": "milltender.ssj.lol/*", "zone_name": "ssj.lol" },
+    { "pattern": "hfmodem.ssj.lol/*", "zone_name": "ssj.lol" },
+    { "pattern": "thundergate.io/*", "zone_name": "thundergate.io" }
+  ]
+}
